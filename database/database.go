@@ -1202,7 +1202,7 @@ func (db *Database) incrementCounterInternal(key string, delta float64, t time.T
 	const lambda = math.Ln2 / float64(counterHalflife)
 	scaledTime := lambda * float64(t.Sub(time.Unix(1257894000, 0)))
 	fmt.Printf("delta:      %v\t\t%s\n, scaledTime: %v\t\t%s\n", delta, strconv.FormatFloat(delta, 'f', -1, 64), scaledTime, strconv.FormatFloat(scaledTime, 'f', -1, 64))
-	return redis.Float64(incrementCounterScript.Do(c, key, strconv.FormatFloat(delta, 'f', -1, 64), strconv.FormatFloat(scaledTime, 'f', -1, 64), (4*counterHalflife)/time.Second))
+	return redis.Float64(incrementCounterScript.Do(c, key, strconv.FormatFloat(delta, 'f', -1, 64), strconv.FormatFloat(scaledTime, 'f', -1, 64), int((4*counterHalflife)/time.Second)))
 }
 
 func (db *Database) IncrementCounter(key string, delta float64) (float64, error) {
