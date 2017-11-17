@@ -24,8 +24,8 @@ import (
 	"google.golang.org/appengine/memcache"
 	"google.golang.org/appengine/urlfetch"
 
-	"github.com/golang/gddo/gosrc"
-	"github.com/golang/gddo/httputil"
+	"github.com/shantuo/gddo/gosrc"
+	"github.com/shantuo/gddo/httputil"
 
 	"golang.org/x/tools/present"
 )

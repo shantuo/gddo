@@ -32,11 +32,11 @@ import (
 	"cloud.google.com/go/trace"
 	"github.com/spf13/viper"
 
-	"github.com/golang/gddo/database"
-	"github.com/golang/gddo/doc"
-	"github.com/golang/gddo/gosrc"
-	"github.com/golang/gddo/httputil"
-	"github.com/golang/gddo/internal/health"
+	"github.com/shantuo/gddo/database"
+	"github.com/shantuo/gddo/doc"
+	"github.com/shantuo/gddo/gosrc"
+	"github.com/shantuo/gddo/httputil"
+	"github.com/shantuo/gddo/internal/health"
 )
 
 const (

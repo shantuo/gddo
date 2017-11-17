@@ -13,7 +13,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/golang/gddo/gosrc"
+	"github.com/shantuo/gddo/gosrc"
 )
 
 func Get(ctx context.Context, client *http.Client, importPath string, etag string) (*Package, error) {

@@ -13,7 +13,7 @@ import (
 
 	"cloud.google.com/go/trace"
 
-	"github.com/golang/gddo/gosrc"
+	"github.com/shantuo/gddo/gosrc"
 )
 
 func (s *server) doCrawl(ctx context.Context) error {

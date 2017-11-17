@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang/gddo/httputil"
+	"github.com/shantuo/gddo/httputil"
 	"github.com/google/go-cmp/cmp"
 )
 

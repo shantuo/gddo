@@ -19,8 +19,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/golang/gddo/gosrc"
-	"github.com/golang/gddo/httputil"
+	"github.com/shantuo/gddo/gosrc"
+	"github.com/shantuo/gddo/httputil"
 )
 
 var (

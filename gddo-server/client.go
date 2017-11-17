@@ -18,7 +18,7 @@ import (
 	"github.com/gregjones/httpcache/memcache"
 	"github.com/spf13/viper"
 
-	"github.com/golang/gddo/httputil"
+	"github.com/shantuo/gddo/httputil"
 )
 
 func newHTTPClient(v *viper.Viper) *http.Client {

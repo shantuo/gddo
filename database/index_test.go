@@ -10,7 +10,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/golang/gddo/doc"
+	"github.com/shantuo/gddo/doc"
 	"github.com/google/go-cmp/cmp"
 )
 

@@ -12,7 +12,7 @@ import (
 	"path"
 	"time"
 
-	"github.com/golang/gddo/internal/runtimeconfig"
+	"github.com/shantuo/gddo/internal/runtimeconfig"
 )
 
 func main() {

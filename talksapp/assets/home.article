@@ -20,8 +20,8 @@ The supported file extensions (.ext) are .slide and .article.
 
 The .html command is not supported.
 
-This page is [[/github.com/golang/gddo/talksapp/assets/home.article][an article]].
+This page is [[/github.com/shantuo/gddo/talksapp/assets/home.article][an article]].
 
 * Feedback
 
-Report bugs and request features using the [[https://github.com/golang/gddo/issues/new][GitHub Issue Tracker]]. 
+Report bugs and request features using the [[https://github.com/shantuo/gddo/issues/new][GitHub Issue Tracker]]. 

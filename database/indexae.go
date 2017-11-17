@@ -18,7 +18,7 @@ import (
 
 	"google.golang.org/appengine/search"
 
-	"github.com/golang/gddo/doc"
+	"github.com/shantuo/gddo/doc"
 )
 
 func (p *Package) Load(fields []search.Field, meta *search.DocumentMetadata) error {

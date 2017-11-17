@@ -10,7 +10,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/golang/gddo/database"
+	"github.com/shantuo/gddo/database"
 )
 
 var blockCommand = &command{
