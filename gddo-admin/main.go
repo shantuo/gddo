@@ -43,6 +43,7 @@ var commands = []*command{
 	dangleCommand,
 	crawlCommand,
 	statsCommand,
+	multicloudCommand,
 }
 
 func printUsage() {
